@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atomic Robotics</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body onresize="onResize()">
+    <!-- NAVBAR -->
+    <!-- Logo Bar -->
+    <div class="logo-bar">
+        <a href="index.html" id="logo-link">
+            <img src="images/3805-banner.png" class="banner-image">
+        </a>
+        <a href="javascript:void(0);" class="nav-hamburger" onclick="toggleNavigationMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+    <nav id="navmenu">
+        <ul class="nav-wrap" id="nav-wrap">
+            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick(null)">Home</a></h1></li>
+            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#team')">Team</a></h1></li>
+            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#game-manual')">Game Manual</a></h1></li>
+            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#sponsorships')">Sponsorships</a></h1></li>
+            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#contact')">Contact</a></h1></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="hero">
+            <img src="images/team-photo-background.jpg" class="hero-image">
+            <div class="hero-content">
+                <h2 class="hero-title">Atomic Robotics</h2>
+                <h4 class="hero-caption">FIRST Tech Challenge team #3805</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" id="team">
+        <h2>Our Team</h2>
+        <p>3805 Atomic Robotics is a group of students participating in the yearly robotics competition called
+            <a href="https://firstinspires.org">FIRST Tech Challenge</a> (FTC). FTC was founded by Dean Kamen
+            in 1989 with the hopes of introducing a wide variety of students to the STEM fields in a fun and
+            interactive way. In addition to programming and engineering skills, our team is involved in outreach
+            and community support, such as park clean-ups, virtual collaborations, and getting young people
+            excited about STEM opportunities.
+        </p>
+    </section>
+
+    <section class="content" id="game-manual">
+        <h2>Game Manual</h2>
+        <p>Game Manual 3805 is an online resource library containing FTC related information that our team has 
+            found valuable over our past seasons. It includes detailed entries about engineering process, 
+            in-depth tutorials on mechanisms our team has used, tips on fundraising and outreach, step-by-step 
+            instructions and tips for programming with Kotlin, and more!</p>
+        <!-- TODO: BUTTON "GO TO MANUAL" -->
+    </section>
+
+    <section class="content" id="sponsorships">
+        <h2>Sponsorships</h2>
+        <p>Atomic Robotics uses sponsorship money to buy essential parts to build our robot such as sensors,
+            structural components, and motion systems, such as motors and servos, to provide our team with
+            valuable engineering experience! Sponsorship money also helps with travel expenses so we can
+            ensure everyone who wants to is able to participate in and attend competitions.
+        </p>
+        <!-- Maybe add "become a sponsor" button? -->
+    </section>
+
+    <section class="content" id="our-sponsors">
+        <h2>Our Sponsors</h2>
+        <div class="sponsor-container" id="elegoo">
+            <img src="images/sponsors/elegoo.webp" alt="ELEGOO logo" class="sponsor-logo">
+            <!-- <h2 style="color: black;">Your Logo Here</h2> -->
+        </div>
+    </section>
+
+    <section class="content" id="contact">
+        <h2>Contact</h2>
+        <p>Please contact us if you have any questions or would like more info. We are open to suggestions and want to hear from you!</p>
+        <p>Email us at <a href="mailto:atomicrobotics3805@gmail.com">AtomicRobotics3805@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p class="copyright">
+                Copyright &copy; 2024 Atomic Robotics. Site designed by <a href="https://rowanmcalpin.com">Rowan McAlpin</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
