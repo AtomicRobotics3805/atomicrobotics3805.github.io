@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Atomic Robotics</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 <body onresize="onResize()">
     <!-- NAVBAR -->
     <!-- Logo Bar -->
     <div class="logo-bar">
-        <a href="index.html" id="logo-link">
-            <img src="images/3805-banner.png" class="banner-image">
+        <a href="/index.html" id="logo-link">
+            <img src="/images/3805-banner.png" class="banner-image">
         </a>
         <a href="javascript:void(0);" class="nav-hamburger" onclick="toggleNavigationMenu()">
             <i class="fa fa-bars"></i>
@@ -27,17 +27,17 @@
     
     <nav id="navmenu">
         <ul class="nav-wrap" id="nav-wrap">
-            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick(null)">Home</a></h1></li>
-            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#team')">Team</a></h1></li>
-            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#game-manual')">Game Manual</a></h1></li>
-            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#sponsorships')">Sponsorships</a></h1></li>
-            <li class="nav-item"><h1><a href="javascript:void(0);" onclick="navItemClick('#contact')">Contact</a></h1></li>
+            <li class="nav-item"><h1><a href="/index.html" class="current">Home</a></h1></li>
+            <!-- <li class="nav-item"><h1><a href="/pages/team">Team</a></h1></li> -->
+            <li class="nav-item"><h1><a href="/pages/blog">Blog</a></h1></li>
+            <!-- <li class="nav-item"><h1><a href="/pages/manual">Game Manual 3805</a></h1></li> -->
+            <li class="nav-item"><h1><a href="mailto:contact@atomicrobotics3805.org" target="_blank">Contact</a></h1></li>
         </ul>
     </nav>
 
     <section>
         <div class="hero">
-            <img src="images/team-photo-background.jpg" class="hero-image">
+            <img src="/images/team-photo-background.jpg" class="hero-image">
             <div class="hero-content">
                 <h2 class="hero-title">Atomic Robotics</h2>
                 <h4 class="hero-caption">FIRST Tech Challenge team #3805</h4>
@@ -54,6 +54,7 @@
             and community support, such as park clean-ups, virtual collaborations, and getting young people
             excited about STEM opportunities.
         </p>
+        <a href="/pages/team" class="read-more">Read More</a>
     </section>
 
     <section class="content" id="game-manual">
@@ -61,8 +62,9 @@
         <p>Game Manual 3805 is an online resource library containing FTC related information that our team has 
             found valuable over our past seasons. It includes detailed entries about engineering process, 
             in-depth tutorials on mechanisms our team has used, tips on fundraising and outreach, step-by-step 
-            instructions and tips for programming with Kotlin, and more!</p>
-        <!-- TODO: BUTTON "GO TO MANUAL" -->
+            instructions and tips for programming with Kotlin, and more!
+        </p>
+        <a href="/pages/manual" class="read-more">Go to the Manual</a>
     </section>
 
     <section class="content" id="sponsorships">
@@ -79,7 +81,7 @@
         <h2>Our Sponsors</h2>
         <a href="https://elegoo.com" rel="nofollow">
         <div class="sponsor-container" id="elegoo">
-            <img src="images/sponsors/elegoo.png" alt="ELEGOO logo" class="sponsor-logo">
+            <img src="/images/sponsors/elegoo.png" alt="ELEGOO logo" class="sponsor-logo">
             <p><em>ELEGOO is a high-tech enterprise focusing on R&D, production, and sales of 3D printers and STEM kits. 
                 The founders are a young team from well-known domestic universities such as Jinan University and 
                 Central South University. At present, the company has sold millions of products worldwide, reaching 
@@ -95,7 +97,7 @@
     <section class="content" id="contact">
         <h2>Contact</h2>
         <p>Please contact us if you have any questions or would like more info. We are open to suggestions and want to hear 
-            from you! <br>Email us at <a href="mailto:atomicrobotics3805@gmail.com">AtomicRobotics3805@gmail.com</a>.</p>
+            from you! <br>Email us at <a href="mailto:contact@atomicrobotics3805.org">contact@AtomicRobotics3805.org</a>.</p>
     </section>
 
     <footer>
@@ -103,9 +105,13 @@
             <p class="copyright">
                 Copyright &copy; 2024 Atomic Robotics. Site designed by <a href="https://rowanmcalpin.com">Rowan McAlpin</a>
             </p>
+            <p class="copyright">
+                <a href="https://instagram.com/3805AtomicRobotics/">Instagram</a>
+                | <a href="https://youtube.com/c/AtomicRobotics3805/">YouTube</a>
+            </p>
         </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/pages/blog/blog.css">
+    <title>Atomic Robotics</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body onresize="onResize()">
+    <!-- NAVBAR -->
+    <!-- Logo Bar -->
+    <div class="logo-bar">
+        <a href="/index.html" id="logo-link">
+            <img src="/images/3805-banner.png" class="banner-image">
+        </a>
+        <a href="javascript:void(0);" class="nav-hamburger" onclick="toggleNavigationMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+    <nav id="navmenu">
+        <ul class="nav-wrap" id="nav-wrap">
+            <li class="nav-item"><h1><a href="/index.html">Home</a></h1></li>
+            <!-- <li class="nav-item"><h1><a href="/pages/team">Team</a></h1></li> -->
+            <li class="nav-item"><h1><a href="/pages/blog" class="current">Blog</a></h1></li>
+            <!-- <li class="nav-item"><h1><a href="/pages/manual">Game Manual 3805</a></h1></li> -->
+            <li class="nav-item"><h1><a href="mailto:contact@atomicrobotics3805.org" target="_blank">Contact</a></h1></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="hero">
+            <img src="/images/blog/blog-hero-image.jpg" class="hero-image">
+            <div class="hero-content">
+                <h2 class="hero-title">Atomic Robotics Blog</h2>
+                <h4 class="hero-caption">Weekly snapshots of our team</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="post">
+        <div class="post-content">
+            <h2>Intro</h2>
+            <p><strong>Welcome to the 3805 Atomic Robotics Blog!</strong></p>
+            <p>The goals of this blog are to introduce you to members of the team and see what they are working on, as well as take a look into all the new and upcoming projects we're working on! We have many upcoming events we can't wait to share with you! This blog will be primarily written by Sloane and then edited by Evan. Stay tuned for a first look into a team member as well as any ongoing projects! <br/>See you every Tuesday!</p>
+            <p>-Sloane & Evan</p>
+        </div>
+        <img src="/images/blog/intro-photo.jpg" alt="Sloane and Evan standing side by side" class="post-image">
+    </section>
+
+    <h1 class="content">Latest Posts</h1>
+
+    <p class="content"><em>There are no posts at this time.</em></p>
+
+    <p class="content"><!-- I am using this paragraph as a spacer. Yay for lazy hacks! --></p>
+
+    <footer>
+        <div class="footer-container">
+            <p class="copyright">
+                Copyright &copy; 2024 Atomic Robotics. Site designed by <a href="https://rowanmcalpin.com">Rowan McAlpin</a>
+            </p>
+            <p class="copyright">
+                <a href="https://instagram.com/3805AtomicRobotics/">Instagram</a>
+                | <a href="https://youtube.com/c/AtomicRobotics3805/">YouTube</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
