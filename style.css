@@ -186,10 +186,12 @@ nav {
 
 .read-more {
     padding: 10px;
+    margin: 0 auto;
     background-color: var(--atomic-green);
     color: black;
     border-radius: 5px;
     font-weight: 600;
+    width: 200px;
 }
 
 .read-more:hover {
@@ -219,12 +221,18 @@ footer {
     nav {
         transform: translate(0, 0);
         opacity: 1;
-        z-index: 50;
+        /* z-index: 50; */
         position:fixed;
         top: 0;
         right: 0;
         height: 90px;
         background-color: #00000000;
+        background-color: black;
+        transition: none;
+    }
+
+    .logo-bar {
+        width: min-content;
     }
 
     .nav-wrap {

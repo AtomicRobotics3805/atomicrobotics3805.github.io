@@ -1,8 +1,12 @@
+h1 {
+    font-size: 60px;
+}
 .post {
-    width: 85%;
+    width: min(85%, 1800px);
     margin: 40px auto;
     position: relative;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .post-image {
@@ -11,9 +15,38 @@
     margin: auto;
 }
 
+.post-content {
+    padding: 50px;
+}
+
 .hero-image {
     max-height: 80vh;
     object-fit: cover;
+}
+
+.full-post {
+    width: min(85%, 1800px);
+    margin: 40px auto;
+    position: relative;
+    text-align: center;
+}
+
+.post-title {
+    margin: 0;
+}
+
+.post-date {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.blog-image {
+    max-width: 50%;
+}
+
+.blog-image-large {
+    width: max(50%, 300px);
 }
 
 @media screen and (min-width: 1200px) {
@@ -23,6 +56,10 @@
         gap: 50px;
     }
 
+    .inverse {
+        flex-direction: row;
+    }
+
     .post-content {
         display: flex;
         flex-direction: column;
@@ -30,6 +67,7 @@
         flex: 1 1 0px;
         width: 0;
         height: 100%;
+        padding: 50px;
     }
 
     .post-image {
