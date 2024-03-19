@@ -166,6 +166,7 @@ nav {
 .sponsor-container {
     position: relative;
     padding: 0 15px;
+    padding-bottom: 40px;
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -183,6 +184,7 @@ nav {
     margin: 0;
     border-radius: 5px;
 }
+
 
 .read-more {
     padding: 10px;
