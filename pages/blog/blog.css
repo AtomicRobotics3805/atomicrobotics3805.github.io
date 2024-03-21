@@ -56,6 +56,10 @@ h1 {
         gap: 50px;
     }
 
+    .flip {
+        flex-direction: row;
+    }
+
     .inverse {
         flex-direction: row;
     }
