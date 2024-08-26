@@ -188,12 +188,14 @@ nav {
 
 .read-more {
     padding: 10px;
-    margin: 0 auto;
+    display: block;
     background-color: var(--atomic-green);
     color: black;
+    margin-left: calc(50% - 150px);
     border-radius: 5px;
     font-weight: 600;
-    width: 200px;
+    width: 300px;
+    font-size: 1.4em;
 }
 
 .read-more:hover {
